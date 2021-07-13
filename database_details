@@ -1,0 +1,62 @@
+spring.application.name=AdminFlight
+server.port=8085
+logging.level.org.springframework= info
+spring.jackson.serialization.write-dates-as-timestamps=false
+spring.jpa.show-sql=true
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.data.jpa.repositories.bootstrap-mode=default
+spring.jpa.defer-datasource-initialization=true
+
+
+spring.application.name=AdminFlight
+server.port=8085
+logging.level.org.springframework= info
+spring.datasource.url= jdbc:mysql://localhost:3306/Admin?useSSL=false
+spring.datasource.username= root
+spring.datasource.password= root
+
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.hibernate.ddl-auto= update
+
+adminflight.cjyxsnjtp52h.us-east-2.rds.amazonaws.com
+
+https://springbootangularapi.s3.us-east-2.amazonaws.com/AdminFlight-0.0.1-SNAPSHOT.jar
+
+sudo yum install java-1.8.0-openjdk
+https://springbootangularapi.s3.us-east-2.amazonaws.com/AdminFlight-0.0.1-SNAPSHOT.jar
+
+mysql -h adminflight.cjyxsnjtp52h.us-east-2.rds.amazonaws.com -P 3306 -u root -p
+
+https://springbootangularapi.s3.us-east-2.amazonaws.com/UserFlight-0.0.1-SNAPSHOT.jar
+
+https://springbootangularapi.s3.us-east-2.amazonaws.com/Zuul-api-gateway-server-0.0.1-SNAPSHOT.jar
+
+https://zuulapi.s3.us-east-2.amazonaws.com/Zuul-api-gateway-server-0.0.1-SNAPSHOT.jar
+
+http://ec2-18-224-151-210.us-east-2.compute.amazonaws.com:8961/UserFlight/api/v1.0/
+
+http://ec2-18-224-151-210.us-east-2.compute.amazonaws.com:8961/AdminFlight/api/v1.0/
+
+const BASE_URL= "http://ec2-18-224-151-210.us-east-2.compute.amazonaws.com:8961/AdminFlight/api/v1.0/";
+const USER_URL= "http://ec2-18-224-151-210.us-east-2.compute.amazonaws.com:8961/UserFlight/api/v1.0/";
+
+http://ec2-18-222-201-245.us-east-2.compute.amazonaws.com:8081/api/v1.0/user/allBookings
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+ bin/kafka-server-start.sh config/server.properties
+ bin/zookeeper-server-start.sh config/zookeeper.properties
+ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic myFlight
+ 
+ spring.kafka.consumer.bootstrap-servers=localhost:9092
+spring.kafka.consumer.group-id=mygroup
+spring.kafka.consumer.auto-offset-reset=earliest
+spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringDeserializer
+spring.kafka.consumer.value-deserializer=org.apache.kafka.common.serialization.StringDeserializer
+
+spring.kafka.producer.bootstrap-servers=localhost:9092
+spring.kafka.producer.key-deserializer = org.apache.kafka.common.serialization.StringDeserializer
+spring.kafka.producer.value-deserializer = org.apache.kafka.common.serialization.StringDeserializer
+
+eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYyNDg5OTg4MSwiaWF0IjoxNjI0ODgxODgxfQ.zdrZf9lYALmFo0nKbeN1OVBHy_1DguPtF32YAYWBnoXfaN2aMtJIT-q70UgrjaUeXSzUzfouBdnPZmKkhOZJXA
